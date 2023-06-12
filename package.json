@@ -1,0 +1,24 @@
+{
+  "name": "@wev/webp-converter-package",
+  "version": "0.0.1",
+  "description": "指定したディレクトリの中の jpg 形式 もしくは png 形式 ファイルをすべて webp 形式 のファイルに変換します",
+  "main": "app.js",
+  "scripts": {
+    "webp": "node app.js"
+  },
+  "author": "Dan",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "sharp": "^0.32.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyohei-dan/webp-converter-package.git"
+  },
+  "keywords": ["webp"],
+  "bugs": {
+    "url": "https://github.com/kyohei-dan/webp-converter-package/issues"
+  },
+  "homepage": "https://github.com/kyohei-dan/webp-converter-package#readme"
+}
