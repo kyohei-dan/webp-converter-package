@@ -1,6 +1,6 @@
 {
-  "name": "@wev/webp-converter-package",
-  "version": "0.0.1",
+  "name": "webp-converter-package",
+  "version": "0.0.4",
   "description": "指定したディレクトリの中の jpg 形式 もしくは png 形式 ファイルをすべて webp 形式 のファイルに変換します",
   "main": "app.js",
   "scripts": {
