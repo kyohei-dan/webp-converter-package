@@ -11,7 +11,7 @@
 using npm
 
 ```
-npm i -D webp-converter-package
+npm i -D @kyohei-dan/webp-converter-package
 ```
 
 ## 実装
@@ -19,7 +19,7 @@ npm i -D webp-converter-package
 ### 画像を WebP に変換する設定を js ファイルに記述する
 
 ```js
-import ImageFileConverter from "webp-converter-package";
+import ImageFileConverter from "@kyohei-dan/webp-converter-package";
 
 (async () => {
   new ImageFileConverter([
