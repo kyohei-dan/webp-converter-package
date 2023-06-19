@@ -16,15 +16,25 @@ npm i -D @kyohei-dan/webp-converter-package
 
 ## 実装
 
-### 画像を WebP に変換する設定を js ファイルに記述する
+### package.json ファイルにコマンドを記述する
 
 ```js
-import ImageFileConverter from "@kyohei-dan/webp-converter-package";
+"scripts": {
+  "webp": "node webp.js",
+},
+```
+
+### package.json ファイルと同じ階層に webp.js ファイルを新規で作成する
+
+### 画像を WebP に変換する設定を webp.js ファイルに記述する
+
+```js
+const ImageFileConverter = require("@kyohei-dan/webp-converter-package");
 
 (async () => {
   new ImageFileConverter([
     {
-      dirPath: "./assets/images",
+      dirPath: "../assets/images",
       format: [".jpg", ".jpeg", ".png"],
       quality: 80,
     },

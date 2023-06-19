@@ -1,12 +1,11 @@
 {
   "name": "@kyohei-dan/webp-converter-package",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "指定したディレクトリの中の jpg 形式 もしくは png 形式 ファイルをすべて webp 形式 のファイルに変換します",
   "main": "webp.js",
   "scripts": {},
   "author": "Dan",
   "license": "MIT",
-  "type": "module",
   "dependencies": {
     "sharp": "^0.32.0"
   },

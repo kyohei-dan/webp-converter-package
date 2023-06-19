@@ -1,8 +1,8 @@
-import sharp from "sharp";
-import { promises as fs } from "fs";
-import path from "path";
+const sharp = require("sharp");
+const fs = require("fs").promises;
+const path = require("path");
 
-export default class ImageFileConverter {
+class ImageFileConverter {
   constructor(config) {
     this.files = [];
     this.webpOption = {};
@@ -74,3 +74,5 @@ export default class ImageFileConverter {
     this.convertComplete = true;
   }
 }
+
+module.exports = ImageFileConverter;
