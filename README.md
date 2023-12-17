@@ -6,6 +6,10 @@
 - jpg は非可逆圧縮、png は可逆圧縮するように設定してます。
 - 圧縮には Node.js の`sharp`というライブラリを使ってます。
 
+## URL
+
+<a href="https://www.npmjs.com/package/@kyohei-dan/webp-converter-package" target="_blank"><strong>https://www.npmjs.com/package/@kyohei-dan/webp-converter-package</strong></a>
+
 ## インストール
 
 using npm
