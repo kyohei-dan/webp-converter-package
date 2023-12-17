@@ -8,7 +8,7 @@
 
 ## URL
 
-<a href="https://www.npmjs.com/package/@kyohei-dan/webp-converter-package" target="_blank"><strong>https://www.npmjs.com/package/@kyohei-dan/webp-converter-package</strong></a>
+<a href="https://www.npmjs.com/package/@kyohei-dan/webp-converter-package/v/0.0.6" target="_blank"><strong>https://www.npmjs.com/package/@kyohei-dan/webp-converter-package/v/0.0.6</strong></a>
 
 ## インストール
 
